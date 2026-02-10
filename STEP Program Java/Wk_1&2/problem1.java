@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Problem1 {
+public class problem1 {
     private static final Map<String, Integer> usernameToUserId = new ConcurrentHashMap<>();
     private static final Map<String, AtomicInteger> attemptFrequency = new ConcurrentHashMap<>();
     private static int userIdCounter = 1;
