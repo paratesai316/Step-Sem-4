@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class PalindromeChecker {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Input text: ");
+        String word = sc.nextLine();
+
+        String reversed = "";
+
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversed = reversed + word.charAt(i);
+        }
+
+        System.out.println("Is it a Palindrome: ");
+
+        if (word.equals(reversed)) {
+            System.out.print(" true");
+        } else {
+            System.out.print(" false");
+        }
+    }
+}
