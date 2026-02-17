@@ -1,3 +1,5 @@
+// UC2: Print a Hardcoded Palindrome Result
+
 import java.util.Scanner;
 
 public class PalindromeChecker1 {
